@@ -9,31 +9,31 @@ const testimonials = [
     name: 'Ramesh Sharma',
     role: 'Delhi',
     feedback: 'Pandit ji performed the Pooja with full devotion. We felt immense peace at home.',
-    image: '/testimonials/ramesh.jpg',
+    image: 'https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg',
   },
   {
     name: 'Meena Joshi',
     role: 'Mumbai',
     feedback: 'Very professional and traditional. Highly recommend for Satyanarayan Katha.',
-    image: '/testimonials/meena.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKPsmahDs5dWG_koO7ciK3sclZEawvJSuXdHguVPjsz5X5e95UP6q3ulm3GCaf_lmOr8Y&usqp=CAU',
   },
   {
     name: 'Anil Verma',
     role: 'Bangalore',
     feedback: 'Pooja was done on time, all samagri was arranged by them. Hassle-free.',
-    image: '/testimonials/anil.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KoEzv8EEpfUQfhyzW8dbxc0Hhyl_yQNS-UVS0NmlIkNXByz8QDW5PEK5n2WrGuyDBYA&usqp=CAU',
   },
   {
     name: 'Sunita Rao',
     role: 'Hyderabad',
     feedback: 'Authentic rituals and proper chanting. Felt blessed.',
-    image: '/testimonials/sunita.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KoEzv8EEpfUQfhyzW8dbxc0Hhyl_yQNS-UVS0NmlIkNXByz8QDW5PEK5n2WrGuyDBYA&usqp=CAU',
   },
   {
     name: 'Vijay Patel',
     role: 'Ahmedabad',
     feedback: 'Excellent service and knowledgeable pandit ji.',
-    image: '/testimonials/vijay.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKPsmahDs5dWG_koO7ciK3sclZEawvJSuXdHguVPjsz5X5e95UP6q3ulm3GCaf_lmOr8Y&usqp=CAU',
   },
 ];
 
@@ -74,7 +74,7 @@ const Testimonials = () => {
                 <img
                   src={t.image}
                   alt={t.name}
-                  className="w-24 h-20 rounded-full object-cover border-2 border-orange-400 mb-4"
+                  className="w-20 h-20 rounded-full object-cover border-2 border-orange-400 mb-4"
                 />
                 <p className="text-sm text-gray-700 italic mb-4 line-clamp-4">
                   "{t.feedback}"
@@ -82,6 +82,7 @@ const Testimonials = () => {
                 <div className="mt-auto text-orange-800 font-semibold">{t.name}</div>
                 <div className="text-xs text-gray-500">{t.role}</div>
               </div>
+              <button></button>
             </SwiperSlide>
           ))}
         </Swiper>

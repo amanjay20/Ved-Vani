@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import ServicesCard from "../Section/ServicesCard";
 import img1 from '../Assests/Kalsharp.jpeg'
 import img2 from '../Assests/Ganeshpujan.jpeg'
-import img3 from '../Assests/ganesh.jpg'
+import img3 from '../Assests/ganesh copy.jpg'
 import img4 from '../Assests/mataji.jpeg'
 
 const SpecialPoojanSection = () => {

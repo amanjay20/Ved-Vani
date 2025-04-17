@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import img1 from '../Assests/logo/logo.png'
 import img2 from '../Assests/Banner.webp'
+import img3 from "../Assests/durgaji.jpg"
+import img4 from "../Assests/pooja.jpg"
 
 const BannerSection = () => {
     const sliderSettings = {
@@ -17,7 +19,7 @@ const BannerSection = () => {
         arrows: false,
       };
       // You can use multiple images here. For now, we're repeating the same image
-  const images = [img1, img2, img1, img1, img1];
+  const images = [img4, img2, img3, img1, img1];
   return (
     <div className="relative  w-full p-1 md:p-6 md:px-8 ">
          <Slider {...sliderSettings}>
